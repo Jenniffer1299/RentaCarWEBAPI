@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentaCarWEBAPI", "RentaCarWEBAPI\RentaCarWEBAPI.csproj", "{D0118152-AD94-4D1A-B39A-F5C686B0291C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentaCars.EN", "RentaCars.EN\RentaCars.EN.csproj", "{135D0A99-362C-4B83-A8EE-04DED7224BA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentaCars.DAL", "RentaCars.DAL\RentaCars.DAL.csproj", "{BA82311A-08FE-430F-BA93-051846CCAF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentaCars.BL", "RentaCars.BL\RentaCars.BL.csproj", "{87AED584-48FD-42E7-A134-AF00050BA774}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{D0118152-AD94-4D1A-B39A-F5C686B0291C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0118152-AD94-4D1A-B39A-F5C686B0291C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0118152-AD94-4D1A-B39A-F5C686B0291C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135D0A99-362C-4B83-A8EE-04DED7224BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135D0A99-362C-4B83-A8EE-04DED7224BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135D0A99-362C-4B83-A8EE-04DED7224BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135D0A99-362C-4B83-A8EE-04DED7224BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA82311A-08FE-430F-BA93-051846CCAF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA82311A-08FE-430F-BA93-051846CCAF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA82311A-08FE-430F-BA93-051846CCAF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA82311A-08FE-430F-BA93-051846CCAF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87AED584-48FD-42E7-A134-AF00050BA774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AED584-48FD-42E7-A134-AF00050BA774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AED584-48FD-42E7-A134-AF00050BA774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AED584-48FD-42E7-A134-AF00050BA774}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
