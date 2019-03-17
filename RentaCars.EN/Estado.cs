@@ -16,8 +16,6 @@ namespace RentaCars.EN
         [Required]
         public string Nombre { get; set; }
 
-       
-
-
+        
     }
 }

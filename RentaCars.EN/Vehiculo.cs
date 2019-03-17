@@ -9,9 +9,7 @@ namespace RentaCars.EN
     [Table("Vehiculo")]
     public partial class Vehiculo
     {
-        
-      
-        
+       
 
         public int VehiculoID { get; set; }
 
@@ -32,13 +30,11 @@ namespace RentaCars.EN
 
         public decimal PrecioDiario { get; set; }
 
-        public decimal PagoTotal { get; set; }
-
         public int EstadoID { get; set; }
 
         public string imagen { get; set; }
 
-     
+        public virtual Estado Estado { get; set; }
 
        
     }

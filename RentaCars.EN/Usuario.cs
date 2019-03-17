@@ -31,8 +31,8 @@ namespace RentaCars.EN
 
         public int EstadoID { get; set; }
 
-        
+        public virtual Estado Estado { get; set; }
 
-      
+       
     }
 }

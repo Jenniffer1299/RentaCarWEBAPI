@@ -9,7 +9,7 @@ namespace RentaCars.EN
     [Table("Reserva")]
     public partial class Reserva
     {
-
+       
 
         public int ReservaID { get; set; }
 
@@ -21,8 +21,12 @@ namespace RentaCars.EN
 
         public string HoraDev { get; set; }
 
+        public decimal PagoTotal { get; set; }
+
         public int EstadoID { get; set; }
 
-        
+        public virtual Estado Estado { get; set; }
+
+       
     }
 }

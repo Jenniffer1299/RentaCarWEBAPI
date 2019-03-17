@@ -10,16 +10,15 @@ namespace RentaCars.EN
     public partial class TipoUsuario
     {
        
-        
 
         public int TipoUsuarioID { get; set; }
 
         public string Nombre { get; set; }
 
-        public int IdEstado { get; set; }
+        public int EstadoID { get; set; }
+
+        public virtual Estado Estado { get; set; }
 
         
-
-       
     }
 }
